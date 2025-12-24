@@ -4,7 +4,6 @@ Este repositório é um compêndio centralizado de conhecimento e arquitetura pa
 ## Filosofia e Abordagem
 O CAP Java combina a modelagem declarativa do CDS com a robustez do ecossistema **Spring Boot**. A filosofia é oferecer uma arquitetura "Opinativa, mas Aberta" (Opinionated but Open), onde tarefas repetitivas são automatizadas pelo framework, permitindo foco total na lógica de negócio e na "Captura da Intenção".
 
-
 ## Estrutura do Repositório
 
 Navegue pelo diretórios do nosso projeto:
@@ -19,6 +18,14 @@ Navegue pelo diretórios do nosso projeto:
 8.  **[Extensibilidade e Multitenancy](./08-extensibilidade-e-multitenancy/README.md)**: Arquitetura SaaS e desenvolvimento de Plugins modulares.
 9.  **[DevOps, Qualidade e Operações](./09-devops-qualidade-e-operacoes/README.md)**: Testes em camadas, Observabilidade e o Inner Loop de desenvolvimento.
 
+## Organização e Nomenclatura dos Arquivos
+
+Para garantir a organização, a rastreabilidade e a sequência lógica de leitura dos arquivos do projeto, foi então definida a seguinte **Regra de Nomenclatura Hierárquica**: **``DD.SS.FF_Slug_Descritivo``**
+
+1. **DD (Diretório Principal)**: Dois dígitos representando a pasta raiz (ex: ``01`` para Fundamentos).
+2. **SS (Subdiretório)**: Dois dígitos representando a subpasta (ex: ``01`` para Filosofia).
+3. **FF (Fila/Ordem)**: Dois dígitos definindo a ordem de leitura recomendada dentro daquele tópico.
+4. **Slug Descritivo**: O nome original ou simplificado do tópico, separado por underlines para legibilidade.
 
 ## Links
 - [Capire - Documentação Oficial da SAP CAP](https://cap.cloud.sap/docs/)
