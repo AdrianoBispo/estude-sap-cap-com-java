@@ -1,5 +1,9 @@
-# Guia de Estudos SAP CAP
-Este repositório tem como objetivo guiar devs iniciantes e devs mais experientes que estão em busca de aprender sobre o universo SAP CAP.
+# Guia de Estudos SAP CAP utilizando Java e Spring Boot
+Este repositório é um compêndio centralizado de conhecimento e arquitetura para o desenvolvimento de aplicações empresariais utilizando o **SAP Cloud Application Programming Model (CAP)** com o runtime **Java**.
+
+## Filosofia e Abordagem
+O CAP Java combina a modelagem declarativa do CDS com a robustez do ecossistema **Spring Boot**. A filosofia é oferecer uma arquitetura "Opinativa, mas Aberta" (Opinionated but Open), onde tarefas repetitivas são automatizadas pelo framework, permitindo foco total na lógica de negócio e na "Captura da Intenção".
+
 
 ## Estrutura do Repositório
 
