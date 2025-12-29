@@ -24,8 +24,8 @@ Navegue pelos diretórios do nosso projeto:
 
 Para garantir a organização, a rastreabilidade e a sequência lógica de leitura dos arquivos do projeto, foi então definida a seguinte **Regra de Nomenclatura Hierárquica**: **`DD.SS.FF_Slug_Descritivo`**
 
-1. **DD (Diretório Principal)**: Dois dígitos representando a pasta raiz (ex: `01` para Fundamentos).
-2. **SS (Subdiretório)**: Dois dígitos representando a subpasta (ex: `01` para Filosofia).
+1. **DD (Diretório Principal)**: Dois dígitos representando a pasta raiz.
+2. **SS (Subdiretório)**: Dois dígitos representando a subpasta.
 3. **FF (Fila/Ordem)**: Dois dígitos definindo a ordem de leitura recomendada dentro daquele tópico.
 4. **Slug Descritivo**: O nome original ou simplificado do tópico, separado por underlines para legibilidade.
 
