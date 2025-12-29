@@ -27,11 +27,21 @@ Para garantir a organização, a rastreabilidade e a sequência lógica de leitu
 3. **FF (Fila/Ordem)**: Dois dígitos definindo a ordem de leitura recomendada dentro daquele tópico.
 4. **Slug Descritivo**: O nome original ou simplificado do tópico, separado por underlines para legibilidade.
 
-## Links
-- [Capire - Documentação Oficial da SAP CAP](https://cap.cloud.sap/docs/)
-- [SAP Learning - Introduction to SAP Cloud Application Programming Model](https://learning.sap.com/courses/introduction-to-sap-cloud-application-programming-model)
-- [SAP Learning - Desenvolva extensões com CAP seguindo o Guia do desenvolvedor SAP BTP](https://learning.sap.com/courses/develop-extensions-with-cap-following-the-sap-btp-developer-s-guide)
-- [SAP Learning - Desenvolvendo um aplicativo SAP Fiori Elements baseado em um serviço CAP OData V4](https://learning.sap.com/courses/developing-an-sap-fiori-elements-app-based-on-a-cap-odata-v4-service)
-- [Tutorial SAP - Crie um aplicativo comercial usando CAP para Java](https://developers.sap.com/mission.cap-java-app.html)
-- [Tutorial SAP - Crie um aplicativo com SAP Java Buildpack 2](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
-- [Tutorial SAP - Como desenvolver um App de Mensagens dentro do SAP BTP utilizando o Java ou Nodejs](https://developers.sap.com/mission.cp-enterprisemessaging-app-develop.html)
+## Links Úteis
+  
+  ### Documentação Oficial
+  - [Capire - Documentação Oficial da SAP CAP](https://cap.cloud.sap/docs/)
+
+  ### SAP Learning - Cursos Oficiais da SAP para você se aprofundar
+  - [SAP Learning - Introduction to SAP Cloud Application Programming Model](https://learning.sap.com/courses/introduction-to-sap-cloud-application-programming-model)
+  - [SAP Learning - Desenvolva extensões com CAP seguindo o Guia do desenvolvedor SAP BTP](https://learning.sap.com/courses/develop-extensions-with-cap-following-the-sap-btp-developer-s-guide)
+  - [SAP Learning - Desenvolvendo um aplicativo SAP Fiori Elements baseado em um serviço CAP OData V4](https://learning.sap.com/courses/developing-an-sap-fiori-elements-app-based-on-a-cap-odata-v4-service)
+
+  ### SAP Tutorials - Aprenda Praticando por meio dos tutoriais oficiais da SAP
+  - [Tutorial SAP - Crie um aplicativo comercial usando CAP para Java](https://developers.sap.com/mission.cap-java-app.html)
+  - [Tutorial SAP - Crie um aplicativo com SAP Java Buildpack 2](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
+  - [Tutorial SAP - Como desenvolver um App de Mensagens dentro do SAP BTP utilizando o Java ou Nodejs](https://developers.sap.com/mission.cp-enterprisemessaging-app-develop.html)
+
+---
+
+_Todo conteúdo presente nesse repositório foi gerado através do Notebook LM com base na documentação oficial da SAP Cloud Application Programming Model._
