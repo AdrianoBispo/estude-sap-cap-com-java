@@ -9,24 +9,23 @@ O CAP Java combina a modelagem declarativa do CDS com a robustez do ecossistema 
 
 ## Estrutura do Repositório
 
-Navegue pelo diretórios do nosso projeto:
+Navegue pelos diretórios do nosso projeto:
 
-1.  **[Fundamentos e Modelagem CDS](./01-fundamentos-e-modelagem-cds/README.md)**: A espinha dorsal. CDS, CDL, CSN e a API de Reflexão.
-2.  **[Arquitetura e Configuração Spring](./02-arquitetura-e-configuracao-spring/README.md)**: A fusão do CAP com o Spring Boot, gestão de dependências e perfis.
-3.  **[Runtime Java Core](./03-runtime-java-core/README.md)**: Como os Event Handlers, Contextos e Transações orquestram a execução.
-4.  **[Dados, Persistência e CQL](./04-dados-persistencia-e-cql/README.md)**: O poder do `CqnService`, `PersistenceService` e a construção de queries tipadas.
-5.  **[Interface de Usuário e Drafts](./05-interface-usuario-e-drafts/README.md)**: Suporte a Fiori Elements e o mecanismo de Rascunhos (Drafts).
-6.  **[Integrações e Mensageria](./06-integracoes-e-mensageria/README.md)**: Consumo de serviços remotos (OData) e Event Mesh.
-7.  **[Segurança e Compliance](./07-seguranca-e-compliance/README.md)**: Autenticação, Autorização e Auditoria automatizada.
-8.  **[Extensibilidade e Multitenancy](./08-extensibilidade-e-multitenancy/README.md)**: Arquitetura SaaS e desenvolvimento de Plugins modulares.
-9.  **[DevOps, Qualidade e Operações](./09-devops-qualidade-e-operacoes/README.md)**: Testes em camadas, Observabilidade e o Inner Loop de desenvolvimento.
+1.  **[Fundamentos e Modelagem CDS](./01-fundamentos-e-modelagem-cds/README.md)**: A espinha dorsal. Explore a filosofia do CAP, as linguagens CDL, CSN, CXN, o compilador e as técnicas de modelagem performática.
+2.  **[Runtime Java Core](./02-runtime-java-core/README.md)**: O coração da aplicação. Entenda a arquitetura modular, a integração com Spring Boot, o gerenciamento de dependências, a lógica de negócios com Event Handlers e a gestão de transações.
+3.  **[Dados, Persistência e CQL](./03-dados-persistencia-e-cql/README.md)**: Acesso e manipulação de dados. Domine a arquitetura de persistência, o `CqnService`, `PersistenceService` e a construção de queries tipadas com CQL.
+4.  **[Interface de Usuário e Drafts](./04-interface-usuario-e-drafts/README.md)**: A experiência do usuário. Aprenda a criar interfaces ricas com Fiori Elements através de anotações e a gerenciar o estado de rascunho (Drafts).
+5.  **[Integrações e Mensageria](./05-integracoes-e-mensageria/README.md)**: Conectando sistemas. Explore o consumo de serviços remotos (OData) e a comunicação assíncrona com SAP Event Mesh e o padrão Transactional Outbox.
+6.  **[Segurança e Compliance](./06-seguranca-e-compliance/README.md)**: Protegendo sua aplicação. Implemente autenticação, autorização, logging de auditoria e garanta a privacidade dos dados.
+7.  **[Extensibilidade e Multitenancy](./07-extensibilidade-e-multitenancy/README.md)**: Escalando a aplicação. Desenvolva arquiteturas SaaS multi-inquilino e crie modularidade com plugins.
+8.  **[DevOps, Qualidade e Operações](./08-devops-qualidade-e-operacoes/README.md)**: Do desenvolvimento à produção. Adote testes automatizados em camadas, otimização, observabilidade e domine o ciclo de desenvolvimento (Inner Loop).
 
 ## Organização e Nomenclatura dos Arquivos
 
-Para garantir a organização, a rastreabilidade e a sequência lógica de leitura dos arquivos do projeto, foi então definida a seguinte **Regra de Nomenclatura Hierárquica**: **``DD.SS.FF_Slug_Descritivo``**
+Para garantir a organização, a rastreabilidade e a sequência lógica de leitura dos arquivos do projeto, foi então definida a seguinte **Regra de Nomenclatura Hierárquica**: **`DD.SS.FF_Slug_Descritivo`**
 
-1. **DD (Diretório Principal)**: Dois dígitos representando a pasta raiz (ex: ``01`` para Fundamentos).
-2. **SS (Subdiretório)**: Dois dígitos representando a subpasta (ex: ``01`` para Filosofia).
+1. **DD (Diretório Principal)**: Dois dígitos representando a pasta raiz (ex: `01` para Fundamentos).
+2. **SS (Subdiretório)**: Dois dígitos representando a subpasta (ex: `01` para Filosofia).
 3. **FF (Fila/Ordem)**: Dois dígitos definindo a ordem de leitura recomendada dentro daquele tópico.
 4. **Slug Descritivo**: O nome original ou simplificado do tópico, separado por underlines para legibilidade.
 
@@ -41,7 +40,7 @@ Para garantir a organização, a rastreabilidade e a sequência lógica de leitu
   - [SAP Learning - Desenvolvendo um aplicativo SAP Fiori Elements baseado em um serviço CAP OData V4](https://learning.sap.com/courses/developing-an-sap-fiori-elements-app-based-on-a-cap-odata-v4-service)
 
   ### SAP Tutorials - Aprenda Praticando por meio dos tutoriais oficiais da SAP
-  - [Tutorial SAP - Crie um aplicativo comercial usando CAP para Java](https://developers.sap.com/mission.cap-java-app.html)
+  - [Tutorial SAP - Crie um aplicativo comercial usando CAP para Java](httpshttps://developers.sap.com/mission.cap-java-app.html)
   - [Tutorial SAP - Crie um aplicativo com SAP Java Buildpack 2](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
   - [Tutorial SAP - Como desenvolver um App de Mensagens dentro do SAP BTP utilizando o Java ou Nodejs](https://developers.sap.com/mission.cp-enterprisemessaging-app-develop.html)
 

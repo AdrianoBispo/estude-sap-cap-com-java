@@ -1,12 +1,13 @@
-# 06. Integrações e Mensageria
+# Módulo 05: Integrações e Mensageria
 
-Conectando sua aplicação ao mundo exterior de forma síncrona e assíncrona.
+![Infográfico sobre o Consumo de Serviços Remotos](./Infograficos/05.01.01_Consumo_Servicos_Remotos.png)
 
-## Conteúdo
+Aplicações modernas raramente vivem isoladas. Este módulo aborda como o CAP Java se conecta a outros sistemas, seja de forma síncrona, consumindo APIs remotas, ou de forma assíncrona, através de uma arquitetura orientada a eventos.
 
-### 1. Consumo de Serviços Remotos
-Utilizamos `RemoteServices` para consumir APIs OData externas (ex: S/4HANA). O CAP utiliza o conceito de **Projeções** para mapear entidades remotas para o modelo local e abstrai a complexidade de destinos e autenticação via SAP Cloud SDK.
+## Tópicos Abordados
 
-### 2. Event Mesh e Outbox
-*   **Mensageria:** O `MessagingService` permite emitir e receber eventos de negócio de forma tipada, integrando-se com SAP Event Mesh.
-*   **Transactional Outbox:** Garante a consistência eventual, armazenando mensagens no banco de dados na mesma transação do negócio antes de enviá-las ao broker.
+Explore os padrões de integração e comunicação através dos seguintes subdiretórios:
+
+- **[01-consumo-servicos-remotos](./01-consumo-servicos-remotos/README.md):** Aprenda a definir e consumir serviços OData externos de forma transparente. O CAP utiliza o conceito de "projeções" para mapear entidades remotas e abstrai a complexidade da comunicação via SAP Cloud SDK.
+
+- **[02-event-mesh-e-outbox](./02-event-mesh-e-outbox/README.md):** Domine a comunicação assíncrona. Entenda como o `MessagingService` se integra ao SAP Event Mesh para emissão e recebimento de eventos, e como o padrão *Transactional Outbox* garante a entrega confiável de mensagens.

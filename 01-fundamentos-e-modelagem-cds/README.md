@@ -1,15 +1,17 @@
-# 01. Fundamentos e Modelagem (CDS)
+# Módulo 01: Fundamentos e Modelagem com CDS
 
-O modelo de domínio é a fonte única da verdade no CAP. Este módulo explora como definir a estrutura e o comportamento da aplicação de forma agnóstica à tecnologia.
+![Infográfico sobre a Jornada do Construtor](./Infograficos/01.01.01_Jornada_do_Construtor.png)
 
-## Conteúdo
+Este módulo é a espinha dorsal do SAP Cloud Application Programming Model (CAP). Aqui, mergulhamos no Core Data Services (CDS), a linguagem que unifica a definição de modelos de dados, serviços e interfaces de usuário, permitindo uma arquitetura baseada em metadados que é tanto poderosa quanto flexível.
 
-### 1. Filosofia e Intenção
-O foco é capturar o *o que* (intenção do negócio) e deixar o *como* (implementação técnica) para o framework. Utilizamos Aspectos como `cuid` (chaves canônicas) e `managed` (auditoria automática) para criar modelos limpos.
+## Tópicos Abordados
 
-### 2. Linguagens Core: CDL e CSN
-*   **CDL (Conceptual Definition Language):** A linguagem legível por humanos usada nos arquivos `.cds`. É projetada para ser concisa e expressiva.
-*   **CSN (Core Schema Notation):** O formato JSON compilado e otimizado que o runtime Java consome. É a ponte universal para gerar SQL, OData e outros artefatos.
+Explore os pilares da modelagem com CDS através dos seguintes subdiretórios:
 
-### 3. Introspecção e Reflexão (`CdsModel`)
-Diferente de frameworks estáticos, o CAP Java opera sobre um "Modelo Vivo". A interface `CdsModel` permite navegar programaticamente por todas as entidades, associações e anotações em tempo de execução, habilitando lógicas genéricas poderosas.
+- **[01-filosofia-e-intencao](./01-filosofia-e-intencao/README.md):** Entenda a filosofia da "modelagem com intenção", que foca em capturar a semântica do negócio e deixar os detalhes de implementação para o framework.
+
+- **[02-linguagens-core-cdl-csn-cxn](./02-linguagens-core-cdl-csn-cxn/README.md):** Aprenda sobre as linguagens que compõem o CDS: CDL (a linguagem de definição conceitual), CSN (a notação de esquema interna) e CXN (as expressões para queries).
+
+- **[03-compilador-e-reflexao](./03-compilador-e-reflexao/README.md):** Descubra como o compilador do CDS transforma seus modelos e como a API de Reflexão (`CdsModel`) permite inspecionar e interagir com o modelo em tempo de execução.
+
+- **[04-modelagem-performatica](./04-modelagem-performatica/README.md):** Explore técnicas avançadas de modelagem focadas em performance, garantindo que suas aplicações sejam eficientes desde o design.

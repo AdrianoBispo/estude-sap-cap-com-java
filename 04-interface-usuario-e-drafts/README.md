@@ -1,11 +1,13 @@
-# 05. Interface de Usuário e Drafts
+# Módulo 04: Interface de Usuário e Drafts
 
-Como o backend Java suporta interfaces Fiori e fluxos de edição complexos.
+![Infográfico sobre a transformação da Intenção para a Interface](./Infograficos/04.01.01_Da_Intencao_a_Interface.png)
 
-## Conteúdo
+Este módulo explora como o backend CAP Java serve de base para a criação de interfaces de usuário ricas e interativas, especialmente com SAP Fiori Elements. Abordaremos como as anotações no modelo CDS se transformam em UIs e como o framework gerencia de forma transparente o ciclo de vida de rascunhos (Drafts).
 
-### 1. Fiori Elements e Anotações
-As anotações `@UI` no modelo CDS instruem o frontend Fiori Elements sobre layout, colunas e campos de busca. O backend Java serve esses metadados via OData.
+## Tópicos Abordados
 
-### 2. Gestão de Rascunhos (Drafts)
-O CAP Java implementa nativamente o suporte a **Drafts** (rascunhos). Quando ativado (`@odata.draft.enabled`), o `DraftService` gerencia automaticamente uma cópia "sombra" dos dados para edição, disparando eventos específicos como `DRAFT_NEW`, `DRAFT_PATCH` e `DRAFT_SAVE`.
+Explore a conexão entre o backend e o frontend através dos seguintes subdiretórios:
+
+- **[01-fiori-elements-annotations](./01-fiori-elements-annotations/README.md):** Aprenda a usar anotações `@UI` diretamente no seu modelo CDS para definir o layout, a apresentação e o comportamento de aplicações Fiori Elements, sem precisar de código de UI complexo.
+
+- **[02-gestao-de-rascunhos-drafts](./02-gestao-de-rascunhos-drafts/README.md):** Domine o suporte nativo a rascunhos do CAP. Entenda como a anotação `@odata.draft.enabled` ativa o `DraftService` para gerenciar o estado de edição de entidades, garantindo uma experiência de usuário robusta e sem perda de dados.

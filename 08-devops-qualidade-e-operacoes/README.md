@@ -1,14 +1,16 @@
-# 09. DevOps, Qualidade e Operações
+# Módulo 08: DevOps, Qualidade e Operações
 
-Garantindo a qualidade do código e a operação eficiente em produção.
+![Infográfico sobre Otimização e Observabilidade](./Infograficos/08.02.01_Otimizacao_e_Observabilidade.png)
 
-## Conteúdo
+Desenvolver uma aplicação é apenas o começo. Este módulo foca nas práticas e ferramentas essenciais para garantir a qualidade, a performance e a operação suave da sua aplicação CAP em ambientes produtivos.
 
-### 1. Testes Automatizados
-Adotamos uma pirâmide de testes:
-*   **Testes de Unidade:** Focados na lógica pura dos Handlers (usando Mockito).
-*   **Testes de Serviço/Integração:** Usando `@SpringBootTest` e `MockMvc` para validar o fluxo completo, incluindo a tradução OData->CQN e persistência em banco H2 em memória.
 
-### 2. Otimização e Observabilidade
-*   **Inner Loop:** O comando `mvn cds:watch` acelera o desenvolvimento local com reinício automático.
-*   **Observabilidade:** Integração com **OpenTelemetry** para rastreamento distribuído e logging estruturado, além de suporte a JMX e Actuators para monitoramento da saúde da aplicação.
+## Tópicos Abordados
+
+Explore o ciclo de vida de DevOps para aplicações CAP através dos seguintes subdiretórios:
+
+- **[01-testes-automatizados](./01-testes-automatizados/README.md):** Aprenda a construir uma estratégia de testes robusta, combinando testes de unidade para a lógica de negócio e testes de integração que validam o fluxo completo da aplicação com um banco de dados em memória.
+
+- **[02-otimizacao-e-observabilidade](./02-otimizacao-e-observabilidade/README.md):** Descubra ferramentas para otimizar a performance e obter visibilidade sobre o comportamento da sua aplicação, incluindo análise de performance e integração com OpenTelemetry para rastreamento distribuído.
+
+- **[03-producao-e-cicd](./03-producao-e-cicd/README.md):** Foco nas melhores práticas para preparar sua aplicação para produção, incluindo o "inner loop" de desenvolvimento com `mvn cds:watch` e estratégias para integração e entrega contínua (CI/CD).
