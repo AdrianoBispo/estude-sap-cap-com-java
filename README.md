@@ -1,6 +1,6 @@
 # Guia de Estudos SAP CAP utilizando Java e Spring Boot
 
-![Infografico - Guia de Desenvolvimento SAP CAP com Java](./02-arquitetura-e-configuracao-spring/Infograficos/02.01.03_Construindo_Aplicacoes_Corporativas_CAP_Java.png)
+![Infografico - Guia de Desenvolvimento SAP CAP com Java](./Infografico%20-%20Arquitetura%20e%20Extensibilidade%20CAP%20Java.png)
 
 Este repositório é um compêndio centralizado de conhecimento e arquitetura para o desenvolvimento de aplicações empresariais utilizando o **SAP Cloud Application Programming Model (CAP)** com o runtime **Java**.
 
