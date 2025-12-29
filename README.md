@@ -2,23 +2,23 @@
 
 ![Infografico - Guia de Desenvolvimento SAP CAP com Java](./Infografico%20-%20Arquitetura%20e%20Extensibilidade%20CAP%20Java.png)
 
-Este repositório é um compêndio centralizado de conhecimento e arquitetura para o desenvolvimento de aplicações empresariais utilizando o **SAP Cloud Application Programming Model (CAP)** com o runtime **Java**.
+> **Este repositório é um compêndio centralizado de conhecimento e arquitetura para o desenvolvimento de aplicações empresariais utilizando o SAP Cloud Application Programming Model (CAP) com o runtime Java.**
 
 ## Filosofia e Abordagem
 O CAP Java combina a modelagem declarativa do CDS com a robustez do ecossistema **Spring Boot**. A filosofia é oferecer uma arquitetura "Opinativa, mas Aberta" (Opinionated but Open), onde tarefas repetitivas são automatizadas pelo framework, permitindo foco total na lógica de negócio e na "Captura da Intenção".
 
 ## Estrutura do Repositório
 
-Navegue pelos diretórios do nosso projeto:
-
-1.  **[Fundamentos e Modelagem CDS](./01-fundamentos-e-modelagem-cds/README.md)**: A espinha dorsal. Explore a filosofia do CAP, as linguagens CDL, CSN, CXN, o compilador e as técnicas de modelagem performática.
-2.  **[Runtime Java Core](./02-runtime-java-core/README.md)**: O coração da aplicação. Entenda a arquitetura modular, a integração com Spring Boot, o gerenciamento de dependências, a lógica de negócios com Event Handlers e a gestão de transações.
-3.  **[Dados, Persistência e CQL](./03-dados-persistencia-e-cql/README.md)**: Acesso e manipulação de dados. Domine a arquitetura de persistência, o `CqnService`, `PersistenceService` e a construção de queries tipadas com CQL.
-4.  **[Interface de Usuário e Drafts](./04-interface-usuario-e-drafts/README.md)**: A experiência do usuário. Aprenda a criar interfaces ricas com Fiori Elements através de anotações e a gerenciar o estado de rascunho (Drafts).
-5.  **[Integrações e Mensageria](./05-integracoes-e-mensageria/README.md)**: Conectando sistemas. Explore o consumo de serviços remotos (OData) e a comunicação assíncrona com SAP Event Mesh e o padrão Transactional Outbox.
-6.  **[Segurança e Compliance](./06-seguranca-e-compliance/README.md)**: Protegendo sua aplicação. Implemente autenticação, autorização, logging de auditoria e garanta a privacidade dos dados.
-7.  **[Extensibilidade e Multitenancy](./07-extensibilidade-e-multitenancy/README.md)**: Escalando a aplicação. Desenvolva arquiteturas SaaS multi-inquilino e crie modularidade com plugins.
-8.  **[DevOps, Qualidade e Operações](./08-devops-qualidade-e-operacoes/README.md)**: Do desenvolvimento à produção. Adote testes automatizados em camadas, otimização, observabilidade e domine o ciclo de desenvolvimento (Inner Loop).
+| Módulo | Descrição |
+| :--- | :--- |
+| 1. **[Fundamentos e Modelagem CDS](./01-fundamentos-e-modelagem-cds/README.md)** | A espinha dorsal. Explore a filosofia do CAP, as linguagens CDL, CSN, CXN, o compilador e as técnicas de modelagem performática. |
+| 2. **[Runtime Java Core](./02-runtime-java-core/README.md)** | O coração da aplicação. Entenda a arquitetura modular, a integração com Spring Boot, o gerenciamento de dependências, a lógica de negócios com Event Handlers e a gestão de transações. |
+| 3. **[Dados, Persistência e CQL](./03-dados-persistencia-e-cql/README.md)** | Acesso e manipulação de dados. Domine a arquitetura de persistência, o `CqnService`, `PersistenceService` e a construção de queries tipadas com CQL. |
+| 4. **[Interface de Usuário e Drafts](./04-interface-usuario-e-drafts/README.md)**| A experiência do usuário. Aprenda a criar interfaces ricas com Fiori Elements através de anotações e a gerenciar o estado de rascunho (Drafts). |
+| 5. **[Integrações e Mensageria](./05-integracoes-e-mensageria/README.md)** | Conectando sistemas. Explore o consumo de serviços remotos (OData) e a comunicação assíncrona com SAP Event Mesh e o padrão Transactional Outbox. |
+| 6. **[Segurança e Compliance](./06-seguranca-e-compliance/README.md)** | Protegendo sua aplicação. Implemente autenticação, autorização, logging de auditoria e garanta a privacidade dos dados. |
+| 7. **[Extensibilidade e Multitenancy](./07-extensibilidade-e-multitenancy/README.md)** | Escalando a aplicação. Desenvolva arquiteturas SaaS multi-inquilino e crie modularidade com plugins. |
+| 8. **[DevOps, Qualidade e Operações](./08-devops-qualidade-e-operacoes/README.md)** | Do desenvolvimento à produção. Adote testes automatizados em camadas, otimização, observabilidade e domine o ciclo de desenvolvimento (Inner Loop). |
 
 ## Organização e Nomenclatura dos Arquivos
 
