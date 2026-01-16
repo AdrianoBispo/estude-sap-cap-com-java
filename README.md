@@ -41,6 +41,7 @@ Para garantir a organização, a rastreabilidade e a sequência lógica de leitu
 
   ### SAP Tutorials - Aprenda Praticando por meio dos tutoriais oficiais da SAP
   - [Tutorial SAP - Crie um aplicativo comercial usando CAP para Java](httpshttps://developers.sap.com/mission.cap-java-app.html)
+  - [Tutorial SAP - Desenvolva uma aplicação CAP Full-Stack seguindo o Guia do Desenvolvedor SAP BTP](https://developers.sap.com/group.cap-application-full-stack.html)
   - [Tutorial SAP - Crie um aplicativo com SAP Java Buildpack 2](https://developers.sap.com/tutorials/btp-cf-buildpacks-java-create.html)
   - [Tutorial SAP - Como desenvolver um App de Mensagens dentro do SAP BTP utilizando o Java ou Nodejs](https://developers.sap.com/mission.cp-enterprisemessaging-app-develop.html)
 
